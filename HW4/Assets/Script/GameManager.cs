@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -75,7 +76,12 @@ public class GameManager : MonoBehaviour
 
         //HighScore = PlayerPrefs.GetInt(PLAYER_PREF_HIGHSCORE, 10);
 
-        print(File.ReadAllText(Application.dataPath + FILE_HIGH_SCORE));
+        string highScoreFileText = File.ReadAllText(Application.dataPath + FILE_HIGH_SCORE);
+
+        string[] scoreSplit = highScoreFileText.Split(' ');
+        
+        HighScore = Int32.Parse(scoreSplit[1]);
+
     }
 
     // Update is called once per frame
