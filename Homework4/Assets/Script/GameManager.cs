@@ -4,8 +4,9 @@ using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Scoring : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
+    [Header("Scoring System")]
     public int perfect;
     public Text perfectText;
 
@@ -31,8 +32,12 @@ public class Scoring : MonoBehaviour
             missText.text = "Miss: " + miss;
         }
     }
+    
+    [Header("Player Setting")]
+    public float SlidingSpeed;
+    public KeyCode JumpKey;
 
-    public static Scoring Instance;
+    public static GameManager Instance;
     
     private void Awake()
     {

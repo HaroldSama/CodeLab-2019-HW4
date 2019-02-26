@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Touch : MonoBehaviour
 {
-    private float SlidingSpeed = 0.1f;
+    //private float SlidingSpeed = 0.1f;
     //public GameObject target;
     public GameObject Destination;
     public GameObject Player;
@@ -12,11 +12,15 @@ public class Touch : MonoBehaviour
     public static bool Sliding;
     private bool SlidingPrivate;
     public Vector3 Way;
+
+    private float slidingSpeed;
+    private KeyCode jumpKey;
     
     // Start is called before the first frame update
     void Start()
     {
-
+        slidingSpeed = GameManager.Instance.SlidingSpeed;
+        jumpKey = GameManager.Instance.JumpKey;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -52,7 +56,7 @@ public class Touch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && transform.Find("Player") != null)//When player press the Space and it's within this petal.
+        if (Input.GetKeyDown(jumpKey) && transform.Find("Player") != null)//When player press the Space and it's within this petal.
         {
             if (Jumpable)//If player is able to jump.
             {
@@ -63,11 +67,11 @@ public class Touch : MonoBehaviour
                 SlidingPrivate = true;//This is a private to control the start and end of the sliding on this particular petal
                 Jumpable = false;//Make player unable to do more jump.
                 //target = null;
-                Scoring.Instance.Perfect++;//Increase the count of successful jump.
+                GameManager.Instance.Perfect++;//Increase the count of successful jump.
             }
             else
             {
-                Scoring.Instance.Miss++;//Increase the count of failed jump.
+                GameManager.Instance.Miss++;//Increase the count of failed jump.
             }        
         }
 
@@ -82,18 +86,18 @@ public class Touch : MonoBehaviour
     void Slide()
     {
         Way =  Destination.transform.position - Player.transform.position;
-        if (Way.magnitude > SlidingSpeed)
+        if (Way.magnitude > slidingSpeed)
         {
             /*print("Player" + Player.transform.position);
             print("Destination" + Destination.transform.position);
             print(Way);
             print(Way.magnitude);
             print(Way / Way.magnitude * SlidingSpeed);*/
-            Player.transform.position += Way / Way.magnitude * SlidingSpeed;
+            Player.transform.position += Way / Way.magnitude * slidingSpeed;
         }
         else
         {
-            print("Set");
+            //print("Set");
             Player.transform.SetParent(Destination.transform, true);
             Player.transform.position = Destination.transform.position;
             Player = null;

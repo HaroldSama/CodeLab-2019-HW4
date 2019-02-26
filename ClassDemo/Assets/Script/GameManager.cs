@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     private const string PLAYER_PREF_HIGHSCORE = "highScore";
     private const string FILE_HIGH_SCORE = "/MyHighScoreFile.txt";
 
+    
+
     public int HighScore
     {
         get { return highScore; }
