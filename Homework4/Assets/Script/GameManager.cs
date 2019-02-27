@@ -7,16 +7,16 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     [Header("Scoring System")]
-    public int perfect;
+    public int step;
     public Text perfectText;
 
-    public int Perfect
+    public int Step
     {
-        get { return perfect; }
+        get { return step; }
         set
         {
-            perfect = value;
-            perfectText.text = "Perfect: " + perfect;
+            step = value;
+            perfectText.text = "Steps: " + step;
         }
     }
 

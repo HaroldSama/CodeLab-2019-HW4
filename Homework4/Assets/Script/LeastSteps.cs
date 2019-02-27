@@ -20,11 +20,13 @@ public class LeastSteps : MonoBehaviour
             }
         }
     }
+
+    public static LeastSteps instance;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        leastStepText.text = "Least Steps: " + leastStep;
     }
 
     // Update is called once per frame

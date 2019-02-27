@@ -67,7 +67,7 @@ public class Touch : MonoBehaviour
                 SlidingPrivate = true;//This is a private to control the start and end of the sliding on this particular petal
                 Jumpable = false;//Make player unable to do more jump.
                 //target = null;
-                GameManager.Instance.Perfect++;//Increase the count of successful jump.
+                GameManager.Instance.Step++;//Increase the count of successful jump.
             }
             else
             {
