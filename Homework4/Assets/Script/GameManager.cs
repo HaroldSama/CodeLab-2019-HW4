@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     [Header("Scoring System")]
     public int step;
-    public Text perfectText;
+    public Text stepText;
 
     public int Step
     {
@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         set
         {
             step = value;
-            perfectText.text = "Steps: " + step;
+            stepText.text = "Steps: " + step;
         }
     }
 
@@ -49,6 +49,10 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            Instance.stepText = stepText;
+            Instance.missText = missText;
+            Instance.Step = 0;
+            Instance.Miss = 0;
             Destroy(gameObject);
         }
     }
