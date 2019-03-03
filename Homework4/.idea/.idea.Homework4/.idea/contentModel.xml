@@ -163,17 +163,18 @@
         </e>
         <e p="Script" t="Include">
           <e p="GameManager.cs" t="Include" />
-          <e p="LeastSteps.cs" t="Include" />
           <e p="LevelFinish.cs" t="Include" />
-          <e p="PlayerSetting.cs" t="Include" />
           <e p="Rotation.cs" t="Include" />
           <e p="Touch.cs" t="Include" />
         </e>
       </e>
       <e p="Homework4.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>

@@ -419,7 +419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Press [SPACE] to continue...
+  m_Text: Press [] to continue...
 --- !u!1 &1603720111925708203
 GameObject:
   m_ObjectHideFlags: 0

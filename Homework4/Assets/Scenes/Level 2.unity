@@ -1780,6 +1780,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1080393130}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1080393135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1603720111618233991, guid: ff2f8bbbac83e5d498c379c1263ebf66,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080393130}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1127251239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,6 +1974,16 @@ PrefabInstance:
       propertyPath: stepText
       value: 
       objectReference: {fileID: 1864020265}
+    - target: {fileID: 365527374070333466, guid: 667c6b2e46d77fe43be494f034c14f62,
+        type: 3}
+      propertyPath: leastStepText
+      value: 
+      objectReference: {fileID: 1864020266}
+    - target: {fileID: 365527374070333466, guid: 667c6b2e46d77fe43be494f034c14f62,
+        type: 3}
+      propertyPath: leastStep
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 667c6b2e46d77fe43be494f034c14f62, type: 3}
 --- !u!1 &1316748488
@@ -3241,6 +3263,9 @@ MonoBehaviour:
   stepText: {fileID: 0}
   miss: 0
   missText: {fileID: 2088960468}
+  leastStep: 0
+  leastStepText: {fileID: 0}
+  leastStepList: 
   SlidingSpeed: 0
   JumpKey: 0
 --- !u!4 &1574912849
@@ -4501,6 +4526,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4178031054103626723, guid: 0b3de5afc1b7e20459b80094abd0ec7c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b3de5afc1b7e20459b80094abd0ec7c, type: 3}
 --- !u!114 &1864020264 stripped
@@ -5582,11 +5612,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a0e97a4e15d2724aa85368ab04f510b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leastStep: 5
-  leastStepText: {fileID: 1864020266}
   board: {fileID: 1080393134}
   YourStepsNum: {fileID: 1080393133}
   LeastStepNum: {fileID: 1080393131}
+  ToProcess: {fileID: 1080393135}
 --- !u!1 &2088960466
 GameObject:
   m_ObjectHideFlags: 0
