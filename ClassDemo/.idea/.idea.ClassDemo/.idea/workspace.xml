@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0862788d-266c-4831-a811-88d3c72c7f2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassDemo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/.idea/.idea.Homework4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/.idea/.idea.Homework4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework4/.idea/.idea.Homework4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/.idea/.idea.Homework4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Prefabs/Board.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/Assets/Prefabs/Board.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Prefabs/FinishBoard.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Prefabs/FinishBoard.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/Assets/Scenes/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/Assets/Scenes/Level 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/Assets/Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Script/LeastSteps.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Script/LeastSteps.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Script/LevelFinish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework4/Assets/Script/LevelFinish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Script/PlayerSetting.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework4/Assets/Script/PlayerSetting.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +14,7 @@
     <session id="1722993050">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -139,7 +121,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -225,8 +207,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -16,7 +16,7 @@ public class LevelFinish : MonoBehaviour
     public Text LeastStepNum;
     public Text ToProcess;
     
-    private const string FILE_LEAST_STEPS = "/MyLeastStepsFile.txt";
+    
     
     // Start is called before the first frame update
     void Start()
@@ -35,11 +35,6 @@ public class LevelFinish : MonoBehaviour
             GameManager.Instance.LeastStep = GameManager.Instance.step;
             YourStepsNum.text = "" + GameManager.Instance.step;
             LeastStepNum.text = "" + GameManager.Instance.leastStep;
-            
-            //Write the least step in the file
-            Debug.Log(Application.dataPath);
-            string fullPathToFile = Application.dataPath + FILE_LEAST_STEPS;
-            //File.AppendText()
         }
 
         if (finish && Input.GetKeyDown(next))
